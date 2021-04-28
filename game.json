@@ -114,6 +114,15 @@
         "name": "NewObject2-1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject3-1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -155,22 +164,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 448,
-          "layer": "",
-          "locked": false,
-          "name": "NewObject",
-          "persistentUuid": "62c89966-117d-4e27-8964-e46c2b79a626",
-          "width": 579,
-          "x": 118,
-          "y": 55,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 206,
           "layer": "",
           "locked": false,
@@ -183,11 +176,27 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 101,
+          "layer": "",
+          "locked": false,
+          "name": "newObject2",
+          "persistentUuid": "9e0b1e3d-e325-4cfc-b2b2-4ec41e69ea32",
+          "width": 121,
+          "x": 354,
+          "y": 234,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
-          "name": "NewObject",
+          "name": "NewObject2",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -195,7 +204,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject",
+              "name": "NewObject2",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -204,7 +213,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1.png",
+                      "image": "NewObject2-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -226,7 +235,7 @@
           ]
         },
         {
-          "name": "NewObject2",
+          "name": "newObject2",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -234,7 +243,7 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewObject2",
+              "name": "NewObject3",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -243,7 +252,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject2-1.png",
+                      "image": "NewObject3-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
